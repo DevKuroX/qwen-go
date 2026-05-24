@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+.next/
+out/
+dist/
+.turbo/
+
+# Environment
+.env
+.env*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Data (tracked — contains runtime state needed for deployment)
+data/geoip/
+
+# Backup
+_ref/
+
+# OS
+.DS_Store
+*.swp
+
+# Go binaries
+backend/qwenpi-go
+backend/server
+backend/qwen-go
+
+# Frontend static export for Go embedding
+backend/internal/server/dashboard/
+
+# Vite cache
+.vite/
+
+# IDE
+.vscode/
+.idea/

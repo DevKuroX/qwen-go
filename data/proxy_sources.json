@@ -1,0 +1,115 @@
+[
+  {
+    "url": "https://vwmhbpgwhfwuwtattset.supabase.co/functions/v1/fetch-proxies",
+    "enabled": false,
+    "source_type": "supabase",
+    "api_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ3bWhicGd3aGZ3dXd0YXR0c2V0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjczMjc0NjYsImV4cCI6MjA4MjkwMzQ2Nn0.LSMD2P4whDzoIW4UCig0ly0j6UOxd5fHhIkUhywnmrg",
+    "stats": {
+      "total_found": 111,
+      "total_alive": 1,
+      "last_scraped": "2026-05-23T23:37:47.4061296Z",
+      "alive_rate": 0.009009009009009009,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt",
+    "enabled": false,
+    "stats": {
+      "total_found": 111,
+      "total_alive": 2,
+      "last_scraped": "2026-05-23T23:37:47.406133272Z",
+      "alive_rate": 0.018018018018018018,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt",
+    "enabled": false,
+    "stats": {
+      "total_found": 111,
+      "total_alive": 3,
+      "last_scraped": "2026-05-23T23:37:47.406134319Z",
+      "alive_rate": 0.02702702702702703,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks4.txt",
+    "enabled": false,
+    "stats": {
+      "total_found": 111,
+      "total_alive": 3,
+      "last_scraped": "2026-05-23T23:37:47.40613546Z",
+      "alive_rate": 0.02702702702702703,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies\u0026protocol=http\u0026timeout=10000\u0026country=all",
+    "enabled": true,
+    "stats": {
+      "total_found": 261,
+      "total_alive": 23,
+      "last_scraped": "2026-05-23T23:42:37.166622427Z",
+      "alive_rate": 0.08812260536398467,
+      "scrape_count": 6
+    }
+  },
+  {
+    "url": "https://api.proxyscrape.com/v2/?request=displayproxies\u0026protocol=socks5\u0026timeout=10000\u0026country=all",
+    "enabled": false,
+    "stats": {
+      "total_found": 111,
+      "total_alive": 2,
+      "last_scraped": "2026-05-23T23:37:47.406136737Z",
+      "alive_rate": 0.018018018018018018,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt",
+    "enabled": false,
+    "stats": {
+      "total_found": 111,
+      "total_alive": 0,
+      "last_scraped": "2026-05-23T23:37:47.406137591Z",
+      "alive_rate": 0,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
+    "enabled": true,
+    "stats": {
+      "total_found": 111,
+      "total_alive": 42,
+      "last_scraped": "2026-05-23T23:37:47.406138475Z",
+      "alive_rate": 0.3783783783783784,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
+    "enabled": true,
+    "stats": {
+      "total_found": 111,
+      "total_alive": 44,
+      "last_scraped": "2026-05-23T23:37:47.406138588Z",
+      "alive_rate": 0.3963963963963964,
+      "scrape_count": 3
+    }
+  },
+  {
+    "url": "https://proxylist.geonode.com/api/proxy-list?limit=500\u0026sort_by=lastChecked\u0026sort_type=desc\u0026filterUpTime=90",
+    "enabled": false,
+    "source_type": "geonode",
+    "stats": {
+      "total_found": 111,
+      "total_alive": 0,
+      "last_scraped": "2026-05-23T23:37:47.406138817Z",
+      "alive_rate": 0,
+      "scrape_count": 3
+    }
+  }
+]

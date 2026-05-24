@@ -1,0 +1,13 @@
+{
+  "name": "@qwenpi/ui",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "@qwenpi/utils": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}

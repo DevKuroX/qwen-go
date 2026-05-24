@@ -1,0 +1,103 @@
+[
+  {
+    "name": "qwen",
+    "base_endpoint": "https://chat.qwen.ai/api/v2/chat/completions",
+    "headers": {
+      "Accept": "text/event-stream",
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    },
+    "auth_mode": "cookie-blob",
+    "available_models": [
+      "qwen3.6-max-preview",
+      "qwen3.6-plus",
+      "qwen3.6-27b"
+    ],
+    "capabilities": {
+      "supports_chat": true,
+      "supports_stream": true,
+      "supports_image": true
+    }
+  },
+  {
+    "name": "opencode-zen",
+    "base_endpoint": "https://opencode.ai/zen/v1/chat/completions",
+    "headers": {
+      "Content-Type": "application/json",
+      "User-Agent": "opencode/1.15.9 (Linux)"
+    },
+    "auth_mode": "ephemeral-session",
+    "available_models": [
+      "deepseek-v4-flash-free"
+    ],
+    "capabilities": {
+      "supports_chat": true,
+      "supports_stream": true,
+      "supports_image": false
+    },
+    "session_max_requests": 190,
+    "max_concurrent_sessions": 10,
+    "model_aliases": {
+      "deepseek-v4-flash-free-thinking": {
+        "base": "deepseek-v4-flash-free",
+        "params": {
+          "reasoning_effort": "high",
+          "verbosity": "low",
+          "reasoning_summary": "auto"
+        }
+      }
+    }
+  },
+  {
+    "name": "gemini-web",
+    "base_endpoint": "https://gemini.google.com",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    },
+    "auth_mode": "cookie-pair-scraped",
+    "models": {
+      "gemini-2.5-flash": {
+        "id": "f299729f40d7f0d2",
+        "capacity": 1
+      },
+      "gemini-2.5-pro": {
+        "id": "fbb127bbb056c959",
+        "capacity": 1
+      }
+    },
+    "capabilities": {
+      "supports_chat": true,
+      "supports_stream": true,
+      "supports_image": false
+    },
+    "access_token_ttl_minutes": 50,
+    "capture_backend": "auto",
+    "python_script_path": "/home/ubuntu/workai/qwen-go/gemini_auto_cookie.py"
+  },
+  {
+    "name": "kiro",
+    "base_endpoint": "https://codewhisperer.us-east-1.amazonaws.com/generateAssistantResponse",
+    "headers": {
+      "Content-Type": "application/x-amz-json-1.0"
+    },
+    "auth_mode": "refresh-access",
+    "available_models": [
+      "claude-3-5-sonnet-20241022",
+      "claude-3-7-sonnet-20250219"
+    ],
+    "capabilities": {
+      "supports_chat": true,
+      "supports_stream": true,
+      "supports_image": false
+    },
+    "quota_endpoints": [
+      "https://codewhisperer.us-east-1.amazonaws.com/getUsageLimits",
+      "https://codewhisperer.us-east-1.amazonaws.com/listUsageLimits",
+      "https://q.us-east-1.amazonaws.com/getUsageLimits"
+    ],
+    "quota_cache_ttls": 60,
+    "refresh_skew_sec": 60,
+    "sso_oidc_endpoint": "https://oidc.us-east-1.amazonaws.com/token",
+    "social_auth_host": "https://prod.us-east-1.auth.desktop.kiro.dev"
+  }
+]

@@ -1,0 +1,4 @@
+{"ts":1779465637,"model":"qwen-turbo","feature":"chat","prompt_tokens":10,"completion_tokens":0,"success":true}
+{"ts":1779465650,"model":"qwen3.6-plus","feature":"chat","prompt_tokens":30,"completion_tokens":0,"success":true}
+{"ts":1779524370,"model":"qwen-video","feature":"t2v","prompt_tokens":0,"completion_tokens":0,"success":false}
+{"ts":1779526841,"model":"qwen3.6-plus","feature":"chat","prompt_tokens":10,"completion_tokens":12,"success":true}

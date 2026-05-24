@@ -1,0 +1,8 @@
+{
+  "rtk_enabled": true,
+  "caveman_enabled": true,
+  "caveman_level": "full",
+  "moemail_domain": "https://moemail.example.com",
+  "moemail_key": "test-key-123",
+  "max_inflight_per_account": 5
+}
